@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList html</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            <h3 class="title ">My TodoList</h3>
+        </div>
+        <div class="taskAlreadyDo">
+            <div class="fait">
+                <p>fait</p>
+            </div>
+
+            <p id="compteur">0/6</p>
+        </div>
+        <div class="centrer">
+            <div class="ligne "></div>
+
+        </div>
+        <div class="centrer">
+            <div class="afficherTache" id="viewTask">
+                <!-- la ou mes differenters taches vont s'afficher -->
+            </div>
+        </div>
+
+
+        <div class="differentTask"></div>
+        <div class="btn-newTache">
+            <div class="centrer" id="centrer">
+                <div class="icone" id="newTask">
+                    <img src="../image/uicons/uicons-regular-rounded/svg/icone-Plus.svg" class="image">
+                    <p>Nouvelle Tache</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="overlay" id="containModal">
+        <div class="contain-pop-pup shadow">
+            <div class="pop-pup " id="modal">
+                <h4>Entrer votre tache</h4>
+                <input type="text" id="task">
+                <button class="btn btn-success" id="add">Add</button>
+                <button class="btn btn-danger" id="cancel">Annuler</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

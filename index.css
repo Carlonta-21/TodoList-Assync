@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    /* width: 70vh; */
+    min-width: 70vh;
+    height: auto;
+    border: 1px solid black;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.taskAlreadyDo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fait {
+    height: 5vh;
+    width: 15vh;
+    border-radius: 90px;
+    border: 1px solid black;
+}
+
+.ligne {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    /* text-align: center;   */
+
+}
+
+.centrer {
+    display: flex;
+    justify-content: center;
+}
+
+.icone {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 5vh;
+    width: 95%;
+    border-radius: 90px;
+    border: 1px solid black;
+    padding: 5px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.image {
+    width: 3vh;
+    height: 3vh;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    height: 100%;
+    width: 100%;
+     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contain-pop-pup {
+    
+    
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pop-pup {
+    /* background-color: white;
+    width: 60vh;
+    height: 50vh; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+li{
+    list-style: none;
+}
+.viewTask{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+    border-bottom: 1px solid black;
+
+}
+
+.afficherTache{
+     width: 95%;
+}
+.state{
+    cursor: pointer;
+    width: 10vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center ;
+    
+}
+.finish{
+    background-color: rgb(126, 248, 126);
+    color: white;
+}
+.viewTask2{
+    display: flex;
+    gap: 10px;
+}
+.supprimer{
+    cursor: pointer;
+    width: 15vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.modifier{
+    cursor: pointer;
+    width: 13vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
